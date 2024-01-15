@@ -29,6 +29,9 @@ export default function Hero() {
         <h2 className="text-semibold text-xl text-green-300">
           Frontend Developer
         </h2>
+        <span className="flex">
+          <p className="text-lg">📍 London</p>
+        </span>
         <a
           href="https://github.com/JBlackburn94?tab=repositories"
           target="_blank"
