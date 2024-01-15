@@ -18,9 +18,6 @@ export default function HorizontalCarousel() {
         <span className="border-t-4 border-green-300 w-20 my-2"></span>
         <motion.div style={{ x, opacity }} className="flex gap-4">
           <Card />
-          <Card />
-          <Card />
-          <Card />
         </motion.div>
       </div>
     </section>

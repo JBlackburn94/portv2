@@ -42,7 +42,7 @@ export default function About() {
     target: targetRef,
     offset: ["start end", "end start"],
   });
-  const scale = useTransform(scrollYProgress, [0, 0.4, 2], [0, 1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
   const opacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
   return (
     <motion.section
