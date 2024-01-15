@@ -1,5 +1,5 @@
 "use client";
-import HorizontalCarousel from "../../components/HorizontalCarousel";
+import HorizontalCarousel from "@/app/components/HorizontalCarousel";
 
 export default function Portfolio() {
   return (
