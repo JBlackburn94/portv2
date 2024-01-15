@@ -1,9 +1,9 @@
-import HorizontalCarousel from "../../components/HorizontalCarousel";
+import Horizontal from "@/app/components/Horizontal";
 
 export default function Portfolio() {
   return (
     <section id="portfolio">
-      <HorizontalCarousel />
+      <Horizontal />
     </section>
   );
 }
