@@ -46,6 +46,7 @@ export default function About() {
   const opacity = useTransform(scrollYProgress, [0, 0.4], [0, 1]);
   return (
     <motion.section
+      id="about"
       ref={targetRef}
       style={{ opacity }}
       className="h-auto flex flex-col justify-start items-center my-10"

@@ -9,7 +9,7 @@ export default function HorizontalCarousel() {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["100%", "-100%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["100%", "-95%"]);
   const opacity = useTransform(scrollYProgress, [1, 0.9], [0, 1]);
   return (
     <section ref={targetRef} className="relative h-[200vh]">

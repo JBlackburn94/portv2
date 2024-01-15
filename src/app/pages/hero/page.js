@@ -17,9 +17,10 @@ export default function Hero() {
 
   return (
     <motion.section
+      id="hero"
       style={{ opacity }}
       ref={targetRef}
-      className="flex flex-col justify-start items-center h-fit px-4 py-16 text-center"
+      className="flex flex-col justify-start items-center h-fit px-4 py-16 text-center select-none"
     >
       <motion.div style={{ scale }} className="flex flex-col items-center">
         <Image
@@ -35,7 +36,7 @@ export default function Hero() {
           <p className="text-lg">📍 London</p>
         </span>
         <a
-          href="https://github.com/JBlackburn94?tab=repositories"
+          href="https://github.com/JBlackburn94"
           target="_blank"
           className="flex items-center justify-center mt-6 bg-green-300 p-4 text-black rounded"
         >
