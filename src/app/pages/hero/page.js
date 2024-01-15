@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { useRef } from "react";
 import Image from "next/image";
-import hero from "/Users/jasonblackburn/Desktop/Code/portv2/portv2/public/hero.webp";
+import hero from "../../../../public/hero.webp";
 
 export default function Hero() {
   const targetRef = useRef();
