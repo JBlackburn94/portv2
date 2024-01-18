@@ -3,7 +3,7 @@ import Card from "./card";
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 
-export default function HorizontalCarousel() {
+export default function Horizontal() {
   const targetRef = useRef();
   const { scrollYProgress } = useScroll({
     target: targetRef,
