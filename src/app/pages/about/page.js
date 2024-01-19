@@ -49,26 +49,27 @@ export default function About() {
       id="about"
       ref={targetRef}
       style={{ opacity }}
-      className="h-auto flex flex-col justify-start items-center my-10"
+      className="flex flex-col items-center justify-start h-auto my-10"
     >
-      <h2 className="font-semibold uppercase text-2xl">About Me</h2>
-      <span className="border-t-4 border-green-300 w-20 my-2"></span>
+      <h2 className="text-2xl font-semibold uppercase">About Me</h2>
+      <span className="w-20 my-2 border-t-4 border-green-300"></span>
       <a
-        href="#"
-        className="mt-5 p-4 bg-green-300 text-black font-semibold rounded"
+        href="https://drive.google.com/file/d/1t5rlVoW8OfiKEX2a5xFuUBT8dQhAkD3Y/view?usp=sharing"
+        target="_blank"
+        className="p-4 mt-5 font-semibold text-black bg-green-300 rounded"
       >
         Download CV
       </a>
       <motion.div
         style={{ scale }}
-        className="flex md:flex-row flex-col-reverse mt-10 w-3/4 justify-between items-start"
+        className="flex flex-col-reverse items-start justify-between w-3/4 mt-10 md:flex-row"
       >
-        <div className="bg-green-300 rounded p-8 h-full text-black w-full md:w-1/2 mx-0 mt-2 md:mt-0 md:mx-4 flex flex-col justify-center items-center">
-          <h3 className="font-semibold text-xl">Tech Stack</h3>
-          <span className="border-t-4 border-green-600 w-20 my-2"></span>
+        <div className="flex flex-col items-center justify-center w-full h-full p-8 mx-0 mt-2 text-black bg-green-300 rounded md:w-1/2 md:mt-0 md:mx-4">
+          <h3 className="text-xl font-semibold">Tech Stack</h3>
+          <span className="w-20 my-2 border-t-4 border-green-600"></span>
           <ul className="flex flex-wrap justify-center">
             {techStack.map(({ id, title }) => (
-              <li className="m-2 p-2 rounded text-white bg-green-600" key={id}>
+              <li className="p-2 m-2 text-white bg-green-600 rounded" key={id}>
                 {title}
               </li>
             ))}
