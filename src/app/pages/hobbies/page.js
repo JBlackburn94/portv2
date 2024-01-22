@@ -38,28 +38,28 @@ export default function Hobbies() {
             <Image
               src={bs1}
               alt="A live picture of Beauty School"
-              className="w-80"
+              className="w-auto h-80"
             />
           </div>
           <div className="mx-2 carousel-item">
             <Image
               src={bs2}
               alt="A live picture of Beauty School"
-              className="w-80"
+              className="w-auto h-80"
             />
           </div>
           <div className="mx-2 carousel-item">
             <Image
               src={bs3}
               alt="A live picture of Beauty School"
-              className="w-80"
+              className="w-auto h-80"
             />
           </div>
           <div className="mx-2 carousel-item">
             <Image
               src={bs4}
               alt="A live picture of Beauty School"
-              className="w-80"
+              className="w-auto h-80"
             />
           </div>
         </div>
