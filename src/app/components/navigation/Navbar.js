@@ -28,6 +28,11 @@ export default function Navbar() {
     },
     {
       id: 4,
+      title: "Hobbies",
+      link: "#hobbies",
+    },
+    {
+      id: 4,
       title: "Contact",
       link: "#contact",
     },

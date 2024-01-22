@@ -1,3 +1,4 @@
+"use client";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
@@ -19,6 +20,7 @@ export default function Hobbies() {
       ref={targetRef}
       style={{ opacity }}
       className="flex flex-col items-center justify-start my-40"
+      id="hobbies"
     >
       <h2 className="text-2xl font-semibold uppercase">Hobbies</h2>
       <span className="w-20 my-2 border-t-4 border-green-300"></span>
