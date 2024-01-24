@@ -49,7 +49,7 @@ export default function About() {
       id="about"
       ref={targetRef}
       style={{ opacity }}
-      className="flex flex-col items-center justify-start h-auto my-10"
+      className="flex flex-col items-center justify-start mt-10 h-fit"
     >
       <h2 className="text-2xl font-semibold uppercase">About Me</h2>
       <span className="w-20 my-2 border-t-4 border-green-300"></span>
@@ -77,7 +77,7 @@ export default function About() {
         </div>
         <div className="w-full md:w-1/2">
           <p className="leading-loose text-center">
-            Hello! My name is Jason Blackburn, I am a Frontend Developer
+            Hello! My name is Jason Blackburn, I am a Full Stack Developer
             comfortable working in all stages of web development. Knowledgeable
             in user interface design and production, testing and debugging,
             database creation and management. I bring forth expertise in design,

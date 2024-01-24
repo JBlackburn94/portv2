@@ -20,17 +20,17 @@ export default function Hero() {
       id="hero"
       style={{ opacity }}
       ref={targetRef}
-      className="flex flex-col justify-start items-center h-fit px-4 py-16 text-center select-none"
+      className="flex flex-col items-center justify-start h-screen px-4 py-16 text-center select-none"
     >
       <motion.div style={{ scale }} className="flex flex-col items-center">
         <Image
           src={hero}
           alt="An image of Jason Blackburn"
-          className="h-1/2 w-auto mb-2 rounded-full"
+          className="w-auto mb-2 rounded-full h-1/2"
         />
-        <h1 className="text-4xl uppercase font-bold">Jason Blackburn</h1>
-        <h2 className="text-semibold text-xl text-green-300">
-          Frontend Developer
+        <h1 className="text-4xl font-bold uppercase">Jason Blackburn</h1>
+        <h2 className="text-xl text-green-300 text-semibold">
+          Full Stack Developer
         </h2>
         <span className="flex">
           <p className="text-lg">📍 London</p>
@@ -38,7 +38,7 @@ export default function Hero() {
         <a
           href="https://github.com/JBlackburn94"
           target="_blank"
-          className="flex items-center justify-center mt-6 bg-green-300 p-4 text-black rounded"
+          className="flex items-center justify-center p-4 mt-6 text-black bg-green-300 rounded"
         >
           <FaGithub size={20} className="mx-2" />
           <p className="">Check out my GitHub projects. </p>

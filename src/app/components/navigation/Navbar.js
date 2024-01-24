@@ -32,7 +32,7 @@ export default function Navbar() {
       link: "#hobbies",
     },
     {
-      id: 4,
+      id: 5,
       title: "Contact",
       link: "#contact",
     },
